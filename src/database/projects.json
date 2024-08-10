@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "E-kart: E-commerce application",
+    "description1": "Ekart is a full-fledged ecommerce application that allows users to browse products, manage wishlists, add items to the cart, post reviews, place orders, download order receipts, and cancel orders. The application is built with ReactJS for the front end and Node.js for the backend. The project is hosted on Netlify for the frontend and Render for the backend and uses a NoSQL MongdoDB to store all the required information for the application that needs to be persisted.",
+    "description2": "",
+    "description3": "",
+    "description4": "",
+    "github": "https://github.com/vinubaburaj/ekart-web-app",
+    "url": "https://main--ekart-web.netlify.app/",
+    "image": "./images/ekart.png"
+  },
+  {
+    "id": 2,
+    "name": "Image Manipulator and Enhancer",
+    "description1": "An Image editor application that allows users to upload images, apply filters, adjust brightness, contrast, and saturation, crop images, and download the edited images. The application is built in Java and has a GUI that allows users to interact with the application.",
+    "description2": "",
+    "description3": "",
+    "description4": "",
+    "github": "https://github.com/gibran96/pdp-ime",
+    "url": "",
+    "image": "./images/ime.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Language Translator",
+    "description1": "The AI Translator Project, developed for the CS5100 Foundations of Artificial Intelligence course at Northeastern University, explores advanced machine learning techniques in language translation using the T5 model. Despite initial ambitions to translate lesser-known languages, the project focused on English, German, Spanish, and French due to data and resource limitations. The T5-small variant was employed for its balance of efficiency and performance, using the AdamW optimizer and trained over three epochs on Opus Corpora datasets. The project includes a React-based interface and Python backend, with comprehensive Jupyter notebooks documenting the process.",
+    "description2": "",
+    "description3": "",
+    "description4": "",
+    "github": "https://github.com/gibran96/ai-doc-translator",
+    "url": "",
+    "image": "./images/ai-trans.png"
+  }
+]
