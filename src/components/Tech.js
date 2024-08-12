@@ -102,7 +102,7 @@ function Tech() {
               <div className="font-semibold text-xl col-span-1 text-center md:text-left">
                 {category.title}
               </div>
-              <div className="grid grid-cols-4 md:grid-cols-8 gap-y-10 col-span-3 justify-center md:justify-start">
+              <div className="grid grid-cols-4 md:grid-cols-8 gap-y-8 col-span-3 justify-center md:justify-start">
                 {category.icons.map((icon, index) => (
                   <TechIcon key={index} IconComponent={icon.component} label={icon.label} />
                 ))}
