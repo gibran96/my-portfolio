@@ -8,11 +8,9 @@ import { useLocation } from "react-router-dom";
 function Home() {
   const { pathname } = useLocation();
   const isHome = pathname === "/";
-  console.log(pathname);
-  
+
   useEffect(() => {
     const handleScroll = (event) => {
-        console.log('im scrolling')
       if (!isHome) {
         return;
       }
@@ -38,7 +36,6 @@ function Home() {
     const navbar = document.getElementById("navbar");
     const anchorLinks = navbar.querySelectorAll('a[href^="#"]');
     anchorLinks.forEach((anchor) => {
-        console.log('im adding listener')
       anchor.addEventListener("click", handleScroll);
     });
 

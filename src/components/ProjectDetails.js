@@ -19,7 +19,6 @@ function ProjectDetails() {
     scrollToTop();
   }, []);
 
-  console.log(project)
   return (
     <div id="project-details" className="bg-gray-100 dark:bg-gray-900 py-16 px-8 mt-16">
         <h2 className="text-3xl font-bold text-center mb-12">{project.name}</h2>

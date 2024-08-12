@@ -26,8 +26,6 @@ function Navbar() {
 
   const { pathname } = useLocation();
   const isHome = pathname === "/";
-  console.log(pathname);
-  const navigate = useNavigate();
 
   return (
     <nav

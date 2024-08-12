@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Projects() {
   const projects = db.projects;
-  console.log(projects);
+  
   return (
     <div id="projects" className="bg-gray-100 dark:bg-[#31363f] py-16 px-8">
       <div className="max-w-6xl mx-auto">
