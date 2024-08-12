@@ -17,7 +17,7 @@ function Hero() {
     // }
   };
   return (
-    <div className="bg-gray-100 dark:bg-[#31363f] h-screen flex items-center justify-center shadow-md">
+    <div className="bg-gray-100 dark:bg-[#31363f] h-screen flex items-center justify-center shadow-md px-5">
       <div className="text-center">
         <img
           src={"./images/profile.jpeg"}
