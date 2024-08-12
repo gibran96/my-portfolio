@@ -32,9 +32,9 @@ function Navbar() {
   return (
     <nav
       id="navbar"
-      className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-6 bg-white dark:bg-[#222831] shadow-md dark:shadow-[#76abae]"
+      className="fixed top-0 left-0 right-0 z-50 flex justify-center md:justify-between items-center p-6 bg-white dark:bg-[#222831] shadow-md dark:shadow-[#76abae]"
     >
-      <Link to={"/"} className="text-2xl font-bold text-black dark:text-white cursor-pointer hover:scale-105 transition-transform duration-300">
+      <Link to={"/"} className="hidden md:block text-2xl font-bold text-black dark:text-white cursor-pointer hover:scale-105 transition-transform duration-300">
         My Portfolio
       </Link>
       <div className="space-x-8 flex items-center">
