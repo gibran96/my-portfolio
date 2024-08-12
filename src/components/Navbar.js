@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaSun, FaMoon } from "react-icons/fa";
-import { Link, useLocation, useNavigate, useRoutes } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { IoMdArrowRoundBack } from "react-icons/io";
 // @ts-ignore
 import GibranMyageri_Resume from "../files/GibranMyageri_Resume.pdf";
@@ -23,7 +23,6 @@ function Navbar() {
         const { latitude, longitude } = position.coords;
         const isDark = calculateDarkMode(latitude, longitude);
         setDarkMode(isDark);
-        console.log('Dark mode:', isDark);
         if (isDark) {
           document.documentElement.setAttribute("data-theme", "dark");
         } else {

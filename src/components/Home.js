@@ -44,7 +44,7 @@ function Home() {
         anchor.removeEventListener("click", handleScroll);
       });
     };
-  }, []);
+  }, [isHome]);
   return (
     <div id="home">
       <Hero />
