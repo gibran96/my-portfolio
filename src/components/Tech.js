@@ -27,6 +27,7 @@ import {
   SiPandas,
   SiAzuredevops,
   SiAzurepipelines,
+  SiGo,
 } from "react-icons/si";
 
 // Reusable component for tech icons
@@ -49,6 +50,7 @@ function Tech() {
         { component: FaJava, label: "Java" },
         { component: FaJs, label: "JavaScript" },
         { component: FaPython, label: "Python" },
+        { component: SiGo, label: "Go" },
         { component: SiTypescript, label: "Typescript" },
         { component: SiRuby, label: "Ruby" },
         { component: FaHtml5, label: "HTML" },
