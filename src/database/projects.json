@@ -31,5 +31,16 @@
     "github": "https://github.com/gibran96/ai-doc-translator",
     "url": "",
     "image": "./images/ai-trans.png"
+  },
+  {
+    "id": 4,
+    "name": "IMDB ReviewSentiment Analysis",
+    "description1": "This project analyzes IMDb movie reviews to predict the sentiment (positive or negative) of each review. The goal is to build a machine learning model that can classify a review based on its text content, making use of various natural language processing techniques and deep learning models. It is a work in progress as I am still trying to achieve a higher accuracy on the model.",
+    "description2": "",
+    "description3": "",
+    "description4": "",
+    "github": "https://github.com/gibran96/imdb-sentiment-analysis",
+    "url": "",
+    "image": "./images/imdb.png"
   }
 ]
