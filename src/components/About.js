@@ -2,6 +2,7 @@ import React from "react";
 import db from "../database";
 
 function About() {
+  // testing automatic pr creation
   const about = db.about;
   return (
     <div id="about" className="bg-white dark:bg-[#31363f] py-16 px-8">
