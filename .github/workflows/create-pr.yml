@@ -1,0 +1,26 @@
+name: Create Pull Request from development to main
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          ref: development
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: main
+          title: 'Sync development to main'
+          body: |
+            This pull request was created automatically by a GitHub Action.
+          draft: false
