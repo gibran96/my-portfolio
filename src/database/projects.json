@@ -42,5 +42,16 @@
     "github": "https://github.com/gibran96/imdb-sentiment-analysis",
     "url": "",
     "image": "./images/imdb.png"
+  },
+  {
+    "id": 5,
+    "name": "Smart Camera",
+    "description1": "SmartCamera is a web application built using React.js and TensorFlow.js. It leverages the coco-ssd object detection model to detect multiple objects in real-time through your webcam. The application allows users to visualize object detection by showing bounding boxes around detected objects, along with their predicted class and confidence score.",
+    "description2": "",
+    "description3": "",
+    "description4": "",
+    "github": "https://github.com/gibran96/smart-camera",
+    "url": "",
+    "image": "./images/smart-cam.png"
   }
 ]
