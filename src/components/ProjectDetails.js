@@ -20,7 +20,7 @@ function ProjectDetails() {
   }, []);
 
   return (
-    <div id="project-details" className="bg-gray-100 dark:bg-gray-900 py-16 px-8 mt-16">
+    <div id="project-details" className="bg-gray-100 dark:bg-gray-900 py-16 px-8 mt-16 h-screen">
         <h2 className="text-3xl font-bold text-center mb-12">{project.name}</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
