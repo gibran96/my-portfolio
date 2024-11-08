@@ -53,5 +53,16 @@
     "github": "https://github.com/gibran96/smart-camera",
     "url": "",
     "image": "./images/smart-cam.png"
-  }
+  },
+  {
+    "id": 6,
+    "name": "Course Registration Chatbot",
+    "description1": "This project aims to develop an LLM-powered chatbot to streamline the course registration process for college students. The chatbot integrates data from multiple sources, including Banner and Trace, to provide personalized course recommendations, verify program requirements, check prerequisites, and offer insights on professor reviews.",
+    "description2": "The project is built on Google Cloud Platform (GCP), employing MLOps best practices such as monitoring and CI/CD pipelines to ensure efficient operation. It includes a robust data pipeline for collecting, processing, and storing data from Northeastern University’s course offerings and student feedback.",
+    "description3": "Airflow DAGs orchestrate key workflows, including data collection from the NEU Banner system, PDF extraction from NEU Trace reports, and training data preparation for an LLM model. Processed data is stored in Google Cloud Storage (GCS) and BigQuery for analysis and model training.",
+    "description4": "",
+    "github": "https://github.com/gibran96/course-registration-chatbot",
+    "url": "",
+    "image": "./images/tbd.jpg"
+}
 ]
